@@ -1,0 +1,158 @@
+header {
+  
+  background-image: fixed;
+  font-family: papyrus;
+  margin: auto;
+}
+
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 15px;
+}
+.header button
+{
+	color: white;
+	position: relative;
+    left: 500px;
+    background: transparent;
+    border: none;
+    color: #ED5565;
+    margin-top:10px;
+    font-size: 16px;
+    font-family: Segoe UI Symbol;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.header button:hover
+{
+	color:  #ED5565;
+}
+.header p
+{
+	position: relative;
+    left: 50px;
+}
+
+
+
+
+		body 
+		{
+			font-family:Arial, Helvetica, sans-serif;
+			background-image: linear-gradient(rgba(255,0,0,0.2),rgba(255,0,0,0.2)),url(back02.jpg);
+			background-size: cover;
+			background-position: center;
+			width:auto;
+			background-attachment: fixed;
+			margin: 0;
+
+		}
+		nav
+		{
+			float: left;
+            width: 15%;
+            height: 150%;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+		}
+		ul 
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			font-size: 15px;
+			overflow: hidden;
+			width: 100%;
+		  	
+		}
+		li a 
+		{
+			display: block;
+			color: #fff;
+			padding:20px;
+			text-decoration: none;
+			text-align: center;
+		}
+		li a:hover
+		{
+			color:  #ED5565;
+		}
+		.top-right li
+		{
+			float: right;
+			margin:15px;
+		}
+		
+		.foot
+		{
+			color: #fff;
+
+		}
+		.foot a
+		{
+			color:  #B18904;
+			text-decoration: none;
+		}
+		.foot a:hover
+		{
+			color: #fff;
+		}
+		
+		.ctn 
+		{
+			position: relative;
+			
+		}
+		.overlay 
+		{
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: 0.5s ease;
+			background-color: #000;
+		}
+
+		.ctn:hover .overlay 
+		{
+			opacity: 0.8;
+		}
+
+		.text 
+		{
+			color: white;
+			font-size: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+		.content 
+		{
+			position: fixed;
+			background: rgba(0, 0, 0, 0.6);
+			color: #f1f1f1;
+			width: 15%;
+			height: 100%;
+		}
+		.content a
+		{
+			text-decoration: none;
+			color: #fff;
+			padding: 20px;
+			font-size: 17px;
+			text-align: center;
+			list-style-type: none;
+
+		}
